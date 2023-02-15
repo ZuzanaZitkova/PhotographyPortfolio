@@ -1,10 +1,14 @@
 /* for font style use: 
-font-family: 'Lobster', cursive;
-font-family: 'Quicksand', sans-serif; 
-light, medium or bold */
+font-family: 'Montserrat', sans-serif;
+thin, regular or medium, all in italic as well */
 
-/* for another font style use 
-font-family: 'Lobster', cursive;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Source Code Pro', monospace;
-extralight, light, regular or medium all in ithalic as well */
+/* for another font style use:
+font-family: 'Inconsolata', monospace;
+estraLight 200, light 300, medium 500 or bold 700*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300;
+}
