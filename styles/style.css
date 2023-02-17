@@ -43,11 +43,24 @@ p {
 .introduce .btn-btn-branding {
   border: solid 1px var(--dark-color-version);
   padding: 15px 30px;
-  line-height: 15;
+  line-height: 27px;
   text-decoration: none;
   color: white;
   border-radius: 4px;
   font-size: 20px;
+  margin-top: 30px;
   background-color: var(--branding-color);
   font-family: var(--secondary-font-family);
+}
+
+.container {
+  padding: 100px 50px;
+  text-align: center;
+
+  background-color: rgba(0, 128, 128, 0.025);
+}
+
+img {
+  width: 450px;
+  border-radius: 4px;
 }
