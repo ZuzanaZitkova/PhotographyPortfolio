@@ -5,10 +5,49 @@ thin, regular or medium, all in italic as well */
 /* for another font style use:
 font-family: 'Inconsolata', monospace;
 estraLight 200, light 300, medium 500 or bold 700*/
-h1 {
-  font-family: 'Montserrat', sans-serif;
+
+:root {
+  --branding-color: rgba(0, 128, 128, 0.673);
+  --soft-background-color: rgba(0, 105, 105, 0.385);
+  --dark-color-version: rgb(9, 84, 84);
+  --primary-font-family: 'Montserrat', sans-serif;
+  --secondary-font-family: 'Inconsolata', monospace;
+}
+
+.introduce {
+  text-align: center;
+  padding: 160px 20px;
+
+  background-color: var(--soft-background-color);
+  width: auto;
+}
+
+.introduce h1 {
+  font-family: var(--primary-font-family);
+  font-weight: medium;
+  line-height: 2.5;
+  font-size: 50px;
+}
+.introduce h2 {
+  line-height: 0;
+  font-size: 30px;
+  font-weight: regular;
+  font-family: var(--primary-font-family);
 }
 p {
-  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-family: var(--secondary-font-family);
   font-weight: 300;
+}
+
+.introduce .btn-btn-branding {
+  border: solid 1px var(--dark-color-version);
+  padding: 15px 30px;
+  line-height: 15;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: var(--branding-color);
+  font-family: var(--secondary-font-family);
 }
