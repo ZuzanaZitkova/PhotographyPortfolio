@@ -7,8 +7,8 @@ font-family: 'Inconsolata', monospace;
 estraLight 200, light 300, medium 500 or bold 700*/
 
 :root {
-  --branding-color: rgba(0, 128, 128, 0.45);
-  --soft-background-color: rgba(0, 105, 105, 0.385);
+  --branding-color: rgba(0, 128, 128, 0.673);
+  --soft-background-color: rgba(0, 105, 105, 0.271);
   --dark-color-version: rgb(9, 84, 84);
   --primary-font-family: 'Montserrat', sans-serif;
   --secondary-font-family: 'Inconsolata', monospace;
