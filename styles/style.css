@@ -59,6 +59,14 @@ p {
   border: solid 1px var(--soft-background-color);
 }
 
+.continues-page a {
+  color: black;
+  text-decoration: none;
+}
+.continues-page a:hover {
+  color: var(--branding-color)
+  ;
+}
 .container {
   padding: 80px 20px;
   text-align: center;
