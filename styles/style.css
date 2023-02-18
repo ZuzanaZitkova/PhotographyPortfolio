@@ -53,14 +53,46 @@ p {
   font-family: var(--secondary-font-family);
 }
 
+.introduce .btn-btn-branding:hover {
+  background-color: teal;
+  color: white;
+  border: solid 1px var(--soft-background-color);
+}
+
 .container {
-  padding: 100px 50px;
+  padding: 80px 20px;
   text-align: center;
 
   background-color: rgba(0, 128, 128, 0.025);
 }
 
 img {
-  width: 450px;
+  width: 400px;
   border-radius: 4px;
+}
+
+.nature {
+  width: 700px;
+}
+
+.description {
+  padding: 150px 0px;
+}
+
+.container .btn-type {
+  border: solid 1px var(--dark-color-version);
+  padding: 15px 30px;
+  line-height: 27px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: var(--branding-color);
+  font-family: var(--secondary-font-family);
+}
+.container .btn-type:hover {
+  background-color: teal;
+  color: white;
+  border: solid 1px var(--soft-background-color);
 }
