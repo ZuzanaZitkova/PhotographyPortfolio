@@ -132,8 +132,9 @@ img {
 }
 
 .container-about {
-  padding: 30px 20px;
+  padding: 80px 20px;
   text-align: center;
+  margin: 0px 40px;
   background-color: var(--light-color);
 }
 
