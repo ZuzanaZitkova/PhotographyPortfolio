@@ -194,4 +194,27 @@ img {
     margin: 20px auto;
     justify-content: center;
   }
-} ;
+}
+
+.contact h1 {
+  font-family: var(--primary-font-family);
+  font-weight: medium;
+  line-height: 2.5;
+  font-size: 50px;
+  text-align: left;
+  margin: 50px 200px;
+}
+
+.contact h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 25px;
+  margin-left: 250px;
+}
+.contact p a {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+  margin-left: 250px;
+  color: var(--branding-color);
+  font-weight: 300;
+  
+}
