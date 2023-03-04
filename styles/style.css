@@ -22,7 +22,7 @@ estraLight 200, light 300, medium 500 or bold 700*/
   width: auto;
 }
 
-.introduce h1 {
+h1 {
   font-family: var(--primary-font-family);
   font-weight: medium;
   line-height: 2.5;
@@ -111,13 +111,6 @@ img {
   background-color: var(--light-color);
 }
 
-.about-page h1 {
-  font-family: var(--primary-font-family);
-  font-weight: 400;
-  line-height: 2.5;
-  font-size: 50px;
-}
-
 .about-page h2 {
   line-height: 0.5;
   font-size: 20px;
@@ -176,14 +169,6 @@ img {
   background-color: var(--light-color);
 }
 
-.work-page h1 {
-  font-family: var(--primary-font-family);
-  font-weight: medium;
-  line-height: 2.5;
-  font-size: 50px;
-  text-align: center;
-}
-
 .wide {
   width: 520px;
 }
@@ -216,5 +201,4 @@ img {
   margin-left: 250px;
   color: var(--branding-color);
   font-weight: 300;
-  
 }
