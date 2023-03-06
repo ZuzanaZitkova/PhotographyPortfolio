@@ -15,46 +15,65 @@ estraLight 200, light 300, medium 500 or bold 700*/
   --secondary-font-family: 'Inconsolata', monospace;
 }
 
+nav {
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav ul {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+nav li {
+  margin-left: 15px;
+  display: inline;
+  list-style: none;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .introduce {
   text-align: center;
   padding: 160px 20px;
   background-color: var(--soft-background-color);
-  width: auto;
 }
 
-h1 {
+.content-container h1,
+.introduce h1,
+.about-page h1,
+.contact h1 {
   font-family: var(--primary-font-family);
-  font-weight: medium;
-  line-height: 2.5;
+  font-weight: 400;
+  line-height: 2;
   font-size: 50px;
   text-align: center;
 }
-.introduce h2 {
-  line-height: 0;
+
+.introduce h2,
+.about-page h2 {
+  line-height: 1;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 200;
   font-family: var(--primary-font-family);
 }
 p {
   font-size: 20px;
   font-family: var(--secondary-font-family);
   font-weight: 300;
+  line-height: 2;
 }
 
-.introduce .btn-btn-branding {
-  border: solid 1px var(--dark-color-version);
-  padding: 15px 30px;
-  line-height: 27px;
-  text-decoration: none;
-  color: white;
-  border-radius: 4px;
-  font-size: 20px;
-  margin-top: 30px;
-  background-color: var(--branding-color);
-  font-family: var(--secondary-font-family);
-}
-
-.introduce .btn-btn-branding:hover {
+.introduce .btn-btn-branding:hover,
+.container .btn-type:hover {
   background-color: teal;
   color: white;
   border: solid 1px var(--soft-background-color);
@@ -69,14 +88,13 @@ p {
 .container {
   padding: 80px 20px;
   text-align: center;
-
   background-color: var(--light-color);
 }
 
 img {
   width: 400px;
-  border-radius: 8px;
   display: flex;
+  border-radius: 15px;
 }
 
 .nature {
@@ -87,7 +105,8 @@ img {
   padding: 150px 0px;
 }
 
-.container .btn-type {
+.container .btn-type,
+.introduce .btn-btn-branding {
   border: solid 1px var(--dark-color-version);
   padding: 15px 30px;
   line-height: 27px;
@@ -99,24 +118,12 @@ img {
   background-color: var(--branding-color);
   font-family: var(--secondary-font-family);
 }
-.container .btn-type:hover {
-  background-color: teal;
-  color: white;
-  border: solid 1px var(--soft-background-color);
-}
 
 .about-page {
   text-align: center;
-  padding: 100px 20px;
+  padding: 50px 20px;
   width: auto;
   background-color: var(--light-color);
-}
-
-.about-page h2 {
-  line-height: 0.5;
-  font-size: 20px;
-  font-weight: regular;
-  font-family: var(--primary-font-family);
 }
 
 .about-page h3 {
@@ -162,16 +169,19 @@ img {
 }
 
 .content-container img {
+  width: 340px;
   text-align: center;
-  padding: 30px 30px 0px 30px;
+  padding: 10px 10px 10px 10px;
 }
 
 .content-container {
   background-color: var(--light-color);
+  padding: 40px 30px 0px 30px;
 }
 
-.wide {
-  width: 520px;
+.content-container .wide {
+  width: 455px;
+  padding-left: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -182,16 +192,7 @@ img {
   }
 }
 
-.contact h1 {
-  font-family: var(--primary-font-family);
-  font-weight: medium;
-  line-height: 2.5;
-  font-size: 50px;
-  text-align: left;
-  margin: 50px 200px;
-}
-
-.contact h3 {
+.contact h4 {
   font-family: var(--secondary-font-family);
   font-size: 25px;
   margin-left: 250px;
