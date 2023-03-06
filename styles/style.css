@@ -44,11 +44,18 @@ nav li.active a {
 .introduce {
   text-align: center;
   padding: 160px 20px;
-  background-color: var(--soft-background-color);
+  background-color: var(--branding-color);
 }
 
+.introduce h1 {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  line-height: 2;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
 .content-container h1,
-.introduce h1,
 .about-page h1,
 .contact h1 {
   font-family: var(--primary-font-family);
@@ -58,18 +65,36 @@ nav li.active a {
   text-align: center;
 }
 
-.introduce h2,
+.introduce h2 {
+  line-height: 1;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: var(--primary-font-family);
+  color: white;
+}
 .about-page h2 {
   line-height: 1;
   font-size: 30px;
   font-weight: 200;
   font-family: var(--primary-font-family);
 }
+
+.introduce p {
+  font-size: 20px;
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
+  line-height: 2;
+  color: white;
+}
 p {
   font-size: 20px;
   font-family: var(--secondary-font-family);
   font-weight: 300;
   line-height: 2;
+}
+
+footer h5 {
+  font-size: 48px;
 }
 
 .introduce .btn-btn-branding:hover,
@@ -177,6 +202,7 @@ img {
 .content-container {
   background-color: var(--light-color);
   padding: 40px 30px 0px 30px;
+  text-align: center;
 }
 
 .content-container .wide {
@@ -203,4 +229,77 @@ img {
   margin-left: 250px;
   color: var(--branding-color);
   font-weight: 300;
+}
+
+footer {
+  padding: 30px 60px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-box {
+  background-color: var(--branding-color);
+  border: solid 1px var(--dark-color-version);
+  padding: 40px 40px;
+  border-radius: 10px;
+  color: white;
+  width: 900px;
+  margin: 30px auto;
+}
+footer .contact-box a {
+  color: var(--dark-color-version);
+  font-size: 30px;
+  padding: 20px 30px;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 4px;
+  transition: all 100ms ease-in-out;
+  border: solid 1px var(--dark-color-version);
+}
+
+footer .contact-box a:hover {
+  background-color: teal;
+  color: white;
+  border: solid 1px var(--soft-background-color);
+}
+
+@media (max-width: 1000px) {
+  footer .contact-box a {
+    font-size: 15px;
+    padding: 10px 10px;
+    margin-top: 10px;
+  }
+  footer .contact-box {
+    padding: 15px 15px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer h5 {
+    font-size: 30px;
+  }
+}
+
+footer .links a {
+  text-decoration: none;
+  font-family: var(--secondary-font-family);
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  transition: all 100px ease-in-out;
+  line-height: 3;
+}
+
+footer .container-social-links a {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+footer .mail-link:hover,
+footer .container-social-links a:hover {
+  color: var(--branding-color);
 }
