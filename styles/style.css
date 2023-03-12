@@ -18,7 +18,7 @@ estraLight 200, light 300, medium 500 or bold 700*/
 nav {
   padding-top: 20px;
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 30px;
 }
 nav a {
   text-decoration: none;
@@ -33,9 +33,9 @@ nav ul {
 }
 
 nav li {
-  margin-left: 15px;
   display: inline;
   list-style: none;
+  padding-left: 30px;
 }
 
 nav a:hover,
@@ -45,10 +45,11 @@ nav li.active a {
 
 @media (max-width: 900px) {
   nav li {
-    padding-left: 60px;
+    padding-left: 20px;
+    font-size: 15px;
   }
   nav {
-    padding-left: 0px;
+    padding-left: 5px;
   }
 }
 .introduce {
@@ -75,6 +76,10 @@ nav li.active a {
   text-align: center;
 }
 
+.contact {
+  text-align: center;
+}
+
 .introduce h2 {
   line-height: 1;
   font-size: 30px;
@@ -82,6 +87,7 @@ nav li.active a {
   font-family: var(--primary-font-family);
   color: white;
 }
+
 .about-page h2 {
   line-height: 1;
   font-size: 30px;
@@ -132,6 +138,11 @@ img {
   border-radius: 15px;
 }
 
+@media (max-width: 900px) {
+  .container .description {
+    padding: 10px 10px;
+  }
+}
 .nature {
   width: 700px;
 }
@@ -157,7 +168,7 @@ img {
 .about-page {
   text-align: center;
   padding: 50px 20px;
-  width: auto;
+
   background-color: var(--light-color);
 }
 
@@ -176,12 +187,14 @@ img {
 .container-about {
   padding: 80px 20px;
   text-align: center;
-  margin: 0px 40px;
+
   background-color: var(--light-color);
 }
 
 .container-about .my-picture {
-  border-radius: 8px;
+  border-radius: 10px;
+
+  text-align: center;
 }
 
 .container-about .btn-branding {
@@ -206,39 +219,49 @@ img {
 .content-container img {
   width: 340px;
   text-align: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
 }
 
 .content-container {
   background-color: var(--light-color);
-  padding: 40px 30px 0px 30px;
+  padding: 20px;
   text-align: center;
 }
 
 .content-container .wide {
-  width: 455px;
-  padding-left: 10px;
+  width: 460px;
+  padding: 10px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   img {
     display: flex;
     margin: 20px auto;
     justify-content: center;
+  }
+
+  .content-container .wide {
+    max-width: 350px;
   }
 }
 
 .contact h4 {
   font-family: var(--secondary-font-family);
   font-size: 25px;
-  margin-left: 250px;
+  
 }
-.contact p a {
+.contact p,
+.contact a {
   font-family: var(--secondary-font-family);
   font-size: 20px;
-  margin-left: 250px;
+
   color: var(--branding-color);
   font-weight: 300;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
 }
 
 footer {
@@ -257,7 +280,7 @@ footer .contact-box {
   width: 900px;
   margin: 30px auto;
 }
-footer .contact-box a {
+footer .contact-box .contact-button a {
   color: var(--dark-color-version);
   font-size: 30px;
   padding: 20px 30px;
@@ -281,13 +304,41 @@ footer .contact-box a:hover {
     margin-top: 10px;
   }
   footer .contact-box {
-    padding: 15px 15px;
+    padding: 15px 15px 15px 25px;
+    text-align: center;
   }
   footer p {
     font-size: 15px;
   }
   footer h5 {
     font-size: 30px;
+  }
+  footer .contact-box .contact-button a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 565px) {
+  footer .contact-box .contact-link-instead a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  footer .contact-box .contact-button {
+    display: none;
+  }
+  footer .contact-box {
+    padding: 15px 25px;
+  }
+
+  footer .mail-link {
+    font-size: 20px;
+    text-align: center;
   }
 }
 

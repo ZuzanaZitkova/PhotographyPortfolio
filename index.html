@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta
+      name="description"
+      content="Zuzana Zitkova Portrait, nature and family photographer based in New Zealand, originally from Czech Republic"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,13 +47,19 @@
   <body>
     <div class="container-navigation">
       <nav class="d-flex justify-content-between">
-        <a href="index.html"><h5 class="logo d-none d-md-block">ZZphoto</h5></a>
-        <a href="index.html"> <h5 class="logo d-flex d-md-none">ZZ</h5></a>
+        <a href="index.html" title="home page"
+          ><h5 class="logo d-none d-md-block">ZZphoto</h5></a
+        >
+        <a href="index.html" title="home page">
+          <h5 class="logo d-flex d-md-none">ZZ</h5></a
+        >
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="work.html">work</a></li>
-          <li><a href="contact.html">contact</a></li>
+          <li class="active">
+            <a href="index.html" title="home page">Home</a>
+          </li>
+          <li><a href="about.html" title="about page">about</a></li>
+          <li><a href="work.html" title="work page">work</a></li>
+          <li><a href="contact.html" title="contact page">contact</a></li>
         </ul>
       </nav>
     </div>
@@ -58,7 +68,9 @@
       <h1>Photography</h1>
       <p>Photographer based in Christchurch, New Zealand</p>
       <div class="work-button">
-        <a href="work.html" class="btn btn-btn-branding">Check my work</a>
+        <a href="work.html" class="btn btn-btn-branding" title="work page"
+          >Check my work</a
+        >
       </div>
     </div>
     <div class="continues-page">
@@ -72,6 +84,9 @@
       </p>
     </div>
     <div class="container">
+      <div class="small-pic d-lg-none d-flex">
+        <img src="images/family.jpg" class="img-fluid" alt="family-pic" />
+      </div>
       <div class="row">
         <div class="col d-none d-lg-block">
           <img src="images/family.jpg" class="img-fluid" alt="family-pic" />
@@ -87,6 +102,9 @@
     </div>
 
     <div class="container">
+      <div class="small-pic d-flex d-lg-none">
+        <img src="images/trees.jpg" class="nature img-fluid" alt="nature-pic" />
+      </div>
       <div class="row">
         <div class="col description">
           <h2 class="text-center">Nature Photography</h2>
@@ -95,6 +113,7 @@
           </p>
           <a href="#" class="btn btn-type">Learn more</a>
         </div>
+
         <div class="col d-none d-lg-block">
           <img
             src="images/trees.jpg"
@@ -106,6 +125,9 @@
     </div>
 
     <div class="container">
+      <div class="small-pic d-flex d-lg-none">
+        <img src="images/portrait.jpg" class="img-fluid" alt="portrait-pic" />
+      </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img src="images/portrait.jpg" class="img-fluid" alt="portrait-pic" />
@@ -123,9 +145,17 @@
           <div>
             <h5>Ready for your shoot?</h5>
             <p>Let`s take some photos together</p>
+            <div class="contact-link-instead d-sm-none">
+              <a href="contact.html">Contact me</a>
+            </div>
           </div>
-          <div class="contact-button">
-            <a href="contact.html" class="btn btn-contact d-flex">Contact me</a>
+          <div class="contact-button d-lg-block">
+            <a
+              href="contact.html"
+              class="btn btn-contact d-flex"
+              title="contact page link"
+              >Contact me</a
+            >
           </div>
         </div>
       </footer>
@@ -135,13 +165,23 @@
             >ZZphoto@gmail.com</a
           >
           <div class="container-social-links">
-            <a href="https://github.com/ZuzanaZitkova/PhotographyPortfolio">
+            <a
+              href="https://github.com/ZuzanaZitkova/PhotographyPortfolio"
+              target="blank"
+              title="link to github source"
+            >
               <i class="fa-brands fa-github"></i
             ></a>
-            <a href="https://www.instagram.com/forgetmenot_foto/"
+            <a
+              href="https://www.instagram.com/forgetmenot_foto/"
+              target="blank"
+              title="link to instagram profile"
               ><i class="fa-brands fa-instagram"></i
             ></a>
-            <a href="https://www.facebook.com/profile.php?id=100005268407466"
+            <a
+              href="https://www.facebook.com/profile.php?id=100005268407466"
+              target="blank"
+              title="link to facebook profile"
               ><i class="fa-brands fa-facebook"></i
             ></a>
           </div>

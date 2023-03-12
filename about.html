@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta
+      name="description"
+      content="Zuzana Zitkova Portrait, nature and family photographer based in New Zealand, originally from Czech Republic. Read something about the photographer on this page."
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,7 +42,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <title>about</title>
+    <title>ZZabout</title>
   </head>
   <body>
     <div class="container-navigation">
@@ -46,28 +50,29 @@
         <a href="index.html"><h5 class="logo d-none d-md-block">ZZphoto</h5></a>
         <a href="index.html"><h5 class="logo d-block d-md-none">ZZ</h5></a>
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">about</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">about</a></li>
           <li><a href="work.html">work</a></li>
           <li><a href="contact.html">contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="about-page">
+    <div class="container about-page">
       <h1>About me</h1>
       <h2>Zuzana Zitkova</h2>
       <br />
       <h3>Family photographer</h3>
     </div>
+
     <div class="container-about">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-7">
           <p class="about-me-article">
             Article about me and my story about how I got to photography
           </p>
           <a href="work.html" class="btn btn-branding">Check my work</a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-5">
           <img
             src="images/me.jpg"
             class="img-fluid my-picture"
@@ -75,14 +80,23 @@
           />
         </div>
       </div>
+
       <footer class="d-flex">
         <div class="contact-box d-flex justify-content-between mt-5 mb-5">
           <div>
             <h5>Ready for your shoot?</h5>
             <p>Let`s take some photos together</p>
+            <div class="contact-link-instead d-sm-none">
+              <a href="contact.html">Contact me</a>
+            </div>
           </div>
-          <div class="contact-button">
-            <a href="contact.html" class="btn btn-contact d-flex">Contact me</a>
+          <div class="contact-button d-lg-block">
+            <a
+              href="contact.html"
+              class="btn btn-contact d-flex"
+              title="contact page link"
+              >Contact me</a
+            >
           </div>
         </div>
       </footer>
