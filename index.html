@@ -3,127 +3,102 @@
   <head>
     <meta
       name="description"
-      content="Zuzana Zitkova Portrait, nature and family photographer based in New Zealand, originally from Czech Republic"
+      content="Zuzana Zitkova Portrait, nature and family photographer based in New Zealand, Christchurch"
     />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;1,100;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300;500;700&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/bca0c7a652.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <title>ZZphoto</title>
+    <title>ZuzkiPhoto</title>
   </head>
   <body>
-    <div class="container-navigation">
-      <nav class="d-flex justify-content-between">
-        <a href="index.html" title="home page"
-          ><h5 class="logo d-none d-md-block">ZZphoto</h5></a
-        >
-        <a href="index.html" title="home page">
-          <h5 class="logo d-flex d-md-none">ZZ</h5></a
-        >
-        <ul>
-          <li class="active">
-            <a href="index.html" title="home page">Home</a>
-          </li>
-          <li><a href="about.html" title="about page">about</a></li>
-          <li><a href="work.html" title="work page">work</a></li>
-          <li><a href="contact.html" title="contact page">contact</a></li>
-        </ul>
+    <header>
+      <nav class="navbar">
+        <div class="brand-name">Zuzki Photo</div>
+        <div class="brand-picture"><img src="" /></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </nav>
-    </div>
-    <div class="introduce">
-      <h2 class="mb-3">Zuzana Zitkova</h2>
-      <h1>Photography</h1>
-      <p>Photographer based in Christchurch, New Zealand</p>
-      <div class="work-button">
-        <a href="work.html" class="btn btn-btn-branding" title="work page"
-          >Check my work</a
-        >
-      </div>
-    </div>
-    <div class="continues-page">
-      <p class="text-center m-5">
-        Have a look at all provided services by
-        <a
-          target="blank"
-          href="https://github.com/ZuzanaZitkova/PhotographyPortfolio"
-          >Zuzana Zitkova Photography</a
-        >
-      </p>
-    </div>
-    <div class="container">
-      <div class="small-pic d-lg-none d-flex">
-        <img src="images/family.jpg" class="img-fluid" alt="family-pic" />
-      </div>
-      <div class="row">
-        <div class="col d-none d-lg-block">
-          <img src="images/family.jpg" class="img-fluid" alt="family-pic" />
+    </header>
+    <!--hero-home includes navbar and main headings-->
+    <section class="hero-home">
+      <div class="hero-home_title">
+        <div class="secondary-title">
+          <h2 class="secondary-heading">Zuzana Zitkova</h2>
         </div>
-        <div class="col description">
-          <h2 class="text-center">Family Photography</h2>
-          <p class="text-muted text-justify">
-            Some text about family photography, I dont have yet
+        <div class="primary-title">
+          <h1 class="main-heading">Photography</h1>
+        </div>
+        <div class="hero-home_text">
+          <p class="primary-text">
+            Photographer based in New Zealand, Christchurch
           </p>
-          <a href="#" class="btn btn-type">Learn more</a>
+        </div>
+        <div class="hero-home_work-btn">
+          <a href="work.html"><btn class="work-btn">My Work</btn></a>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="small-pic d-flex d-lg-none">
-        <img src="images/trees.jpg" class="nature img-fluid" alt="nature-pic" />
-      </div>
-      <div class="row">
-        <div class="col description">
-          <h2 class="text-center">Nature Photography</h2>
-          <p class="text-muted text-justify">
-            Some text about Nature photography, I dont have yet
+    </section>
+    <!-- family pictures section-->
+    <section class="hero-family">
+      <div class="family-text">
+        <div class="secondary-title">
+          <h2 class="secondary-heading">Family Photography</h2>
+        </div>
+        <div class="hero-family_text">
+          <p class="primary-text">
+            Capturing family moments through a photoshoot is a timeless
+            treasure. It preserves memories, strengthens bonds, and creates
+            lasting heirlooms. These snapshots of love and togetherness freeze
+            time, reminding us of the beautiful tapestry of our lives.
           </p>
-          <a href="#" class="btn btn-type">Learn more</a>
-        </div>
-
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/trees.jpg"
-            class="nature img-fluid"
-            alt="nature-pic"
-          />
         </div>
       </div>
-    </div>
+      <div class="hero-family_picture">
+        <img src="images/family.jpg" alt="family-pic" />
+      </div>
+    </section>
 
+    <!--nature pictures section-->
+
+    <section class="hero-nature">
+      <div class="nature-text">
+        <div class="secondary-title">
+          <h2 class="secondary-heading">Nature photography</h2>
+        </div>
+        <div class="hero-nature_text">
+          <p class="primary-text">
+            Photographing nature is a delightful pursuit. It immerses us in the
+            beauty of our planet, encouraging mindfulness and appreciation for
+            the environment. Nature photos also serve as powerful reminders of
+            the importance of conservation, urging us to protect and preserve
+            the wonders of the natural world for future generations.
+          </p>
+        </div>
+      </div>
+      <div class="hero-nature_picture">
+        <img src="images/trees.jpg" alt="nature-picture" />
+      </div>
+    </section>
+
+    <section class="hero-portrait">
+      <div class=""
+    </section>
     <div class="container">
       <div class="small-pic d-flex d-lg-none">
         <img src="images/portrait.jpg" class="img-fluid" alt="portrait-pic" />
