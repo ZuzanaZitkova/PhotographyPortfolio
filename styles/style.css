@@ -1,46 +1,62 @@
-/* for font style use: 
-font-family: 'Montserrat', sans-serif;
-thin, regular or medium, all in italic as well */
-
-/* for another font style use:
-font-family: 'Inconsolata', monospace;
-estraLight 200, light 300, medium 500 or bold 700*/
-
-:root {
-  --branding-color: rgba(0, 128, 128, 0.673);
-  --soft-background-color: rgba(0, 105, 105, 0.271);
-  --dark-color-version: rgb(9, 84, 84);
-  --light-color: rgba(0, 128, 128, 0.025);
-  --primary-font-family: 'Montserrat', sans-serif;
-  --secondary-font-family: 'Inconsolata', monospace;
+* {
+  box-sizing: border-box;
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 
-nav {
-  padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 30px;
+body {
+  margin: 0;
+  padding: 0;
 }
-nav a {
+
+/* navbar styling*/
+.navbar {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 50px;
+  align-items: center;
+}
+.brand-name {
+  font-size: 25px;
+}
+.navbar-links ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+  font-size: 20px;
+}
+.navbar-links li a {
   text-decoration: none;
   color: black;
-  transition: all 100ms ease-in-out;
+  padding: 0px 20px;
+  display: block;
 }
-
-nav ul {
-  font-family: var(--secondary-font-family);
-  font-size: 20px;
-  font-weight: 300;
+.navbar-links li a:hover {
+  color: rgba(102, 132, 120, 0.951);
 }
-
-nav li {
-  display: inline;
-  list-style: none;
-  padding-left: 30px;
+/*toggle button styling*/
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
 }
-
-nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
