@@ -159,3 +159,29 @@ body {
   display: block;
   text-align: center;
 }
+
+/*hero_nature styling*/
+
+.nature-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 60px;
+  grid-gap: 100px;
+}
+
+.hero-nature_picture img {
+  max-width: 600px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-nature {
+  background-color: white;
+}
+
+.nature_text {
+  padding: 60px;
+}
