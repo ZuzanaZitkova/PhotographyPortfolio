@@ -61,4 +61,21 @@ body {
 
 /*index.html hero-home part styling*/
 
-.hero-home{}
+.hero-home {
+  background: linear-gradient(
+      to bottom left,
+      rgba(255, 255, 255, 0.873),
+      rgba(162, 28, 164, 0.553)
+    ),
+    url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/077/original/vectorstock_1999390.jpg?1694071021://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/078/original/vectorstock_2951201.png?1694071070');
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: fit-content;
+  padding: 50px;
+  position: relative;
+  background-size: cover;
+}
+
+.secondary-heading {
+}
