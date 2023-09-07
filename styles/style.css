@@ -121,6 +121,41 @@ body {
 }
 
 /*hero-family styling*/
-.hero-family{
-  
+.hero-family {
+  background-color: rgba(128, 0, 128, 0.051);
+}
+
+.family-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 60px;
+}
+
+.family-text {
+  padding: 60px;
+}
+.hero-family_picture img {
+  max-width: 400px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.primary-text-details {
+  display: block;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 3;
+}
+
+.secondary-heading-details {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 100;
+  display: block;
+  text-align: center;
 }
