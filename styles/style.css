@@ -64,7 +64,7 @@ body {
 .hero-home {
   background: linear-gradient(
       to bottom left,
-      rgba(255, 255, 255, 0.873),
+      rgb(255, 255, 255),
       rgba(162, 28, 164, 0.553)
     ),
     url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/077/original/vectorstock_1999390.jpg?1694071021://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/078/original/vectorstock_2951201.png?1694071070');
@@ -72,10 +72,55 @@ body {
   background-repeat: no-repeat;
   max-width: 100%;
   max-height: fit-content;
-  padding: 50px;
+  padding: 60px;
   position: relative;
   background-size: cover;
 }
 
 .secondary-heading {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.main-heading {
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.primary-text {
+  text-align: center;
+  line-height: 3;
+  font-size: 20px;
+  font-weight: 100;
+}
+.hero-home_work-btn button {
+  border: 1px solid purple;
+  color: purple;
+  background-color: white;
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  display: block;
+  margin: 80px auto 30px auto;
+}
+.hero-home_work-btn button:hover {
+  color: white;
+  background-color: rgba(128, 0, 128, 0.554);
+  cursor: pointer;
+}
+
+.hero-home_work-btn a {
+  text-decoration: none;
+}
+
+/*hero-family styling*/
+.hero-family{
+  
 }
