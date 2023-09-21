@@ -221,7 +221,7 @@ footer {
   justify-content: space-between;
   margin: auto;
   max-width: 1000px;
-  padding: 80px 0 30px 20px;
+  padding: 80px 0 10px 20px;
   color: white;
 }
 .secondary-footer_heading {
@@ -234,11 +234,14 @@ footer {
   display: block;
 }
 .primary-text-footer {
-  line-height: 1.5;
-  font-size: 18px;
+  line-height: 2;
+  font-size: 17px;
   text-align: justify;
 }
-
+.main-footer_heading {
+  text-transform: uppercase;
+  text-align: center;
+}
 .be-social {
   display: block;
   font-size: 30px;
@@ -248,6 +251,24 @@ footer {
 }
 
 .social-links a {
-  padding: 0px 20px 0px 10px;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+}
+
+/*styling of secondary-footer*/
+
+.secondary-footer-section {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+.brand {
+  border-top: solid 1px white;
+  max-width: 1100px;
+  padding-top: 40px;
   margin: 0 auto;
+}
+.brand a {
+  color: white;
 }
