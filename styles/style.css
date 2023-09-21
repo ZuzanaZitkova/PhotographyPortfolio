@@ -130,7 +130,7 @@ body {
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   max-width: 1400px;
-  padding: 60px;
+  padding: 80px;
 }
 
 .family-text {
@@ -160,14 +160,14 @@ body {
   text-align: center;
 }
 
-/*hero_nature styling*/
+/*hero-nature styling*/
 
 .nature-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   max-width: 1400px;
-  padding: 60px;
+  padding: 80px;
   grid-gap: 100px;
 }
 
@@ -179,9 +179,35 @@ body {
 }
 
 .hero-nature {
-  background-color: white;
+  background-color: rgba(128, 10, 128, 0.173);
 }
 
 .nature_text {
   padding: 60px;
+  text-align: justify;
+}
+
+/*hero-portrait styling*/
+
+.hero-portrait {
+  background-color: white;
+}
+.portrait-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 80px;
+}
+
+.hero-portrait_picture img {
+  max-width: 400px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.portrait-text {
+  padding: 60px;
+  text-align: justify;
 }
