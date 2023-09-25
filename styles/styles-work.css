@@ -4,6 +4,14 @@
   margin: 0 auto;
 }
 
+.gallery-row-wide {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
 .row-picture img {
   max-width: 200px;
+}
+.row-picture-wide img {
+  max-width: 400px;
 }
