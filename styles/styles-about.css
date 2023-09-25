@@ -14,13 +14,18 @@
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.about-content img {
-  text-align: center;
+  margin: 0 auto;
 }
 
 .about-picture img {
+  display: block;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 0 0;
+  border-radius: 5px;
+}
+
+.about-text {
+  text-align: justify;
+  line-height: 2;
+  font-size: 18px;
 }
