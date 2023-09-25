@@ -5,3 +5,22 @@
 .secondary-heading {
   margin: 0 auto;
 }
+
+.hero-about-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-content img {
+  text-align: center;
+}
+
+.about-picture img {
+  max-width: 500px;
+  margin: 0 auto;
+}
