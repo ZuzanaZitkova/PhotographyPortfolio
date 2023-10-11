@@ -12,21 +12,19 @@ body {
 
 /* navbar styling*/
 .navbar {
-  text-transform: uppercase;
-  display: flex;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  padding: 20px 50px;
-  align-items: center;
+  padding: 60px 50px;
 }
 .brand-name {
-  font-size: 25px;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 70px;
 }
 .navbar-links ul {
-  padding: 0;
-  margin: 0;
   display: flex;
+  justify-content: center;
+  padding: 0;
 }
 .navbar-links li {
   list-style: none;
