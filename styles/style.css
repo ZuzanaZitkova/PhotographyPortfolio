@@ -2,7 +2,6 @@
   box-sizing: border-box;
   font-family: 'Anonymous Pro', monospace;
   font-family: 'Source Sans 3', sans-serif;
-  font-family: 'Space Mono', monospace;
 }
 
 body {
@@ -18,26 +17,30 @@ body {
   padding: 60px 50px;
 }
 .brand-name {
-  font-family: 'Pinyon Script', cursive;
-  font-size: 70px;
+  font-family: 'Italianno', cursive;
+  font-weight: 200;
+  font-size: 80px;
 }
 .navbar-links ul {
+  font-family: 'Space Mono', monospace;
+  font-weight: 300;
+  margin: 5px auto;
   display: flex;
   justify-content: center;
   padding: 0;
+  font-size: 20px;
 }
 .navbar-links li {
   list-style: none;
-  font-size: 20px;
 }
 .navbar-links li a {
   text-decoration: none;
-  color: black;
   padding: 0px 20px;
   display: block;
+  color: rgba(7, 7, 7, 0.588);
 }
 .navbar-links li a:hover {
-  color: rgba(102, 132, 120, 0.951);
+  color: rgba(14, 69, 47, 0.951);
 }
 /*toggle button styling*/
 .toggle-button {
@@ -56,158 +59,37 @@ body {
   background-color: black;
   border-radius: 10px;
 }
-
-/*index.html hero-home part styling*/
-
-.hero-home {
-  background: linear-gradient(
-      to bottom left,
-      rgb(255, 255, 255),
-      rgba(162, 28, 164, 0.553)
-    ),
-    url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/077/original/vectorstock_1999390.jpg?1694071021://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/078/original/vectorstock_2951201.png?1694071070');
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: fit-content;
-  padding: 60px;
-  position: relative;
-  background-size: cover;
-}
-
-.secondary-heading {
-  display: block;
+.gallery-sheet {
+  max-width: 1350px;
+  margin: 0 auto;
   text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 2;
 }
 
-.main-heading {
-  display: block;
-  text-align: center;
-  font-size: 35px;
-  text-transform: uppercase;
-  font-weight: 100;
-}
-
-.primary-text {
-  text-align: center;
-  line-height: 3;
-  font-size: 20px;
-  font-weight: 100;
-}
-.hero-home_work-btn button {
-  border: 1px solid purple;
-  color: purple;
-  background-color: white;
-  padding: 20px 50px;
-  border-radius: 10px;
-  font-size: 18px;
-  display: block;
-  margin: 80px auto 30px auto;
-}
-.hero-home_work-btn button:hover {
-  color: white;
-  background-color: rgba(128, 0, 128, 0.554);
-  cursor: pointer;
-}
-
-.hero-home_work-btn a {
-  text-decoration: none;
-}
-
-/*hero-family styling*/
-.hero-family {
-  background-color: rgba(128, 0, 128, 0.051);
-}
-
-.family-section {
+/*gallery styling on main home page*/
+.gallery-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 auto;
-  max-width: 1400px;
-  padding: 80px;
+  grid-gap: 5px;
 }
 
-.family-text {
-  padding: 60px;
-}
-.hero-family_picture img {
-  max-width: 400px;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
-}
-
-.primary-text-details {
-  display: block;
-  margin: 0 auto;
-  text-align: justify;
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 3;
-}
-
-.secondary-heading-details {
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: 100;
-  display: block;
-  text-align: center;
-}
-
-/*hero-nature styling*/
-
-.nature-section {
+.gallery-row-wide {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  max-width: 1400px;
-  padding: 80px;
-  grid-gap: 100px;
-}
-
-.hero-nature_picture img {
-  max-width: 600px;
-  border-radius: 10px;
-  display: block;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
 }
-
-.hero-nature {
-  background-color: rgba(189, 110, 189, 0.317);
+.row-picture img {
+  max-width: 330px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
 }
-
-.nature_text {
-  padding: 60px;
-  text-align: justify;
-}
-
-/*hero-portrait styling*/
-
-.hero-portrait {
-  background-color: white;
-}
-.portrait-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  max-width: 1400px;
-  padding: 80px;
-}
-
-.hero-portrait_picture img {
-  max-width: 400px;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
-}
-
-.portrait-text {
-  padding: 60px;
-  text-align: justify;
+.row-picture-wide img {
+  max-width: 443px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
 }
 
 /*footer styling*/
