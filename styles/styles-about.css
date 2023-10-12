@@ -58,14 +58,7 @@ body {
   background-color: black;
   border-radius: 10px;
 }
-
-.main-heading {
-  margin: 40px auto 0 auto;
-}
-
-.secondary-heading {
-  margin: 0 auto;
-}
+/*styling of the constent of about page*/
 
 .hero-about-content {
   max-width: 1300px;
