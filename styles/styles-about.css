@@ -60,6 +60,11 @@ body {
 }
 /*styling of the constent of about page*/
 
+.main-heading {
+  font-family: 'Space Mono', monospace;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.602);
+}
 .hero-about-content {
   max-width: 1300px;
   margin: 0 auto;
@@ -79,7 +84,9 @@ body {
 }
 
 .about-text {
+  font-family: 'Space Mono', monospace;
+  font-weight: 100;
   text-align: justify;
   line-height: 2;
-  font-size: 18px;
+  font-size: 16px;
 }
