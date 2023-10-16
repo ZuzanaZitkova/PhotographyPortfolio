@@ -1,0 +1,66 @@
+/*footer styling*/
+footer {
+  margin-top: 30px;
+  background-color: rgba(14, 69, 47, 0.698);
+  font-family: 'Space Mono', monospace;
+  font-weight: 300;
+}
+
+.main-footer_heading {
+  font-family: 'Space Mono', monospace;
+  font-weight: 300;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1000px;
+  padding: 30px 0 30px 0px;
+  color: white;
+}
+.secondary-footer_heading {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.footer-introduce {
+  width: 40%;
+  display: block;
+}
+.primary-text-footer {
+  line-height: 2;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.be-social {
+  display: block;
+  font-size: 25px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.social-links a {
+  padding: 0px 25px 0px 0px;
+}
+
+/*styling of secondary-footer*/
+
+.secondary-footer-section {
+  background-color: white;
+  color: rgba(14, 69, 47, 0.698);
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+.brand {
+  max-width: 1100px;
+  padding: 15px 0px 20px 0;
+  margin: 0 auto;
+}
+.brand a {
+  color: rgba(14, 69, 47, 0.698);
+}
