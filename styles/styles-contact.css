@@ -82,18 +82,11 @@ body {
 /*styling of the contact hero/ form */
 .hero_contact {
   background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.837),
-      rgba(184, 208, 184, 0.488)
-    ),
-    url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/778/original/608.jpg?1689929765');
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: fit-content;
+    to right,
+    rgba(255, 255, 255, 0.837),
+    rgba(14, 69, 47, 0.465)
+  );
   padding: 50px;
-  position: relative;
-  background-size: cover;
 }
 
 .hero_contact-form-wrapper {
