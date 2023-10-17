@@ -76,11 +76,20 @@ body {
   margin: 0 auto;
 }
 
+/*styling of pictures on about page*/
+.me-france {
+  margin: 270px -20px 0px -100px;
+}
+.me-camera {
+}
+.about-picture {
+  display: flex;
+}
 .about-picture img {
-  display: block;
-  max-width: 500px;
-  margin: 0 auto 0 0;
+  display: flexbox;
+  max-width: 260px;
   border-radius: 5px;
+  max-height: 360px;
 }
 
 .about-text {
