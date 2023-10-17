@@ -77,19 +77,30 @@ body {
 }
 
 /*styling of pictures on about page*/
-.me-france {
-  margin: 270px -20px 0px -100px;
+.me-park {
+  margin: 310px -20px 0px -100px;
+  max-width: 300px;
+  border-radius: 5px;
+  max-height: 340px;
 }
 .me-camera {
+  margin: 20px 50px 0px -60px;
+  max-width: 260px;
+  border-radius: 5px;
+  max-height: 350px;
+}
+
+.me-france {
+  max-width: 300px;
+  border-radius: 5px;
+  max-height: 340px;
 }
 .about-picture {
   display: flex;
+  margin-top: 30px;
 }
 .about-picture img {
   display: flexbox;
-  max-width: 260px;
-  border-radius: 5px;
-  max-height: 360px;
 }
 
 .about-text {
