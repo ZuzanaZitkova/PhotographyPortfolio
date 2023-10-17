@@ -102,6 +102,7 @@ body {
 .about-picture img {
   display: flexbox;
 }
+/*styling of text on about page*/
 
 .about-text {
   font-family: 'Space Mono', monospace;
@@ -144,7 +145,7 @@ footer {
   font-size: 16px;
   text-align: justify;
 }
-
+/*social links in footer*/
 .be-social {
   display: block;
   font-size: 25px;
