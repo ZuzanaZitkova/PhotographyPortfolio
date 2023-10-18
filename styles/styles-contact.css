@@ -142,7 +142,7 @@ body {
 }
 
 .form-submit-btn:hover {
-  background-color: rgba(102, 132, 120, 0.192);
+  background-color: rgba(31, 114, 81, 0.597);
   border: solid 1px rgba(102, 132, 120, 0.192);
   cursor: pointer;
   color: black;
@@ -158,7 +158,7 @@ h4 {
 /*footer styling*/
 footer {
   margin-top: 5px;
-  background-color: rgba(14, 69, 47, 0.698);
+  background-color: rgba(214, 227, 222, 0.698);
   font-family: 'Space Mono', monospace;
   font-weight: 300;
 }
@@ -173,7 +173,7 @@ footer {
   margin: auto;
   max-width: 1000px;
   padding: 30px 0 30px 0px;
-  color: white;
+  color: rgba(14, 69, 47, 0.879);
 }
 .secondary-footer_heading {
   font-weight: 300;
