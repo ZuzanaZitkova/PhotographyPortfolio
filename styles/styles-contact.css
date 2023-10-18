@@ -157,8 +157,8 @@ h4 {
 
 /*footer styling*/
 footer {
-  margin-top: 5px;
-  background-color: rgba(214, 227, 222, 0.698);
+  margin-top: 10px;
+  background-color: rgba(231, 239, 236, 0.456);
   font-family: 'Space Mono', monospace;
   font-weight: 300;
 }
@@ -173,7 +173,7 @@ footer {
   margin: auto;
   max-width: 1000px;
   padding: 30px 0 30px 0px;
-  color: rgba(14, 69, 47, 0.879);
+  color: rgba(14, 69, 47, 0.916);
 }
 .secondary-footer_heading {
   font-weight: 300;
@@ -201,7 +201,7 @@ footer {
 }
 
 .social-links a {
-  padding: 0px 25px 0px 0px;
+  padding: 0px 20px 0px 0px;
 }
 
 /*styling of secondary-footer*/
