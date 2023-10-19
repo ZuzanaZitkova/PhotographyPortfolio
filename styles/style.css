@@ -162,6 +162,7 @@ footer {
 }
 
 /*responsive styling for home page for max 900px width*/
+/*styling of navbar and header*/
 
 @media (max-width: 900px) {
   .navbar {
@@ -188,14 +189,14 @@ footer {
     display: flex;
   }
   .toggle-button {
+    margin: 20px 0px;
     display: flex;
     position: absolute;
-    margin-bottom: 0;
   }
   .brand-name {
-    font-size: 20px;
+    font-size: 30px;
     display: block;
-    margin-top: 10px;
-    padding-left: 20px;
+    margin: 20px 0px;
+    padding-left: 10px;
   }
 }
