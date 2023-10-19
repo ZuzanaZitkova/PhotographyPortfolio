@@ -199,4 +199,21 @@ footer {
     margin: 20px 0px;
     padding-left: 10px;
   }
+
+  /*styling of responsive gallery under 900px width*/
+
+  .gallery-row {
+    display: block;
+  }
+  .gallery-row-wide {
+    display: block;
+  }
+  .row-picture img {
+    max-width: 400px;
+  }
+  .row-picture-wide img {
+    max-width: 400px;
+  }
+
+  /*styling of responsive footer*/
 }
