@@ -257,10 +257,6 @@ footer {
   /*styling of secondary-footer*/
 
   .secondary-footer-section {
-    background-color: white;
-    color: rgba(14, 69, 47, 0.698);
-    display: block;
-    text-align: center;
     padding: 20px;
   }
   .brand {
