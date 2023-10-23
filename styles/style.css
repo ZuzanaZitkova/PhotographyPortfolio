@@ -216,4 +216,55 @@ footer {
   }
 
   /*styling of responsive footer*/
+
+  footer {
+    margin-top: 10px;
+  }
+
+  .footer-section {
+    display: block;
+    text-align: center;
+    max-width: 800px;
+    padding: 10px 30px 10px 30px;
+  }
+  .footer-introduce {
+    width: fit-content;
+  }
+  .secondary-footer_heading {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .primary-text-footer {
+    line-height: 2;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .be-social {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 200px;
+  }
+
+  .social-links a {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /*styling of secondary-footer*/
+
+  .secondary-footer-section {
+    background-color: white;
+    color: rgba(14, 69, 47, 0.698);
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+  .brand {
+    padding: 0px;
+    margin: 5px auto;
+  }
 }
