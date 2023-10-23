@@ -168,12 +168,20 @@ footer {
   .gallery-row-small {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
   }
   .gallery-row {
     display: none;
   }
   .row-picture img {
-    max-width: 400px;
+    max-width: 430px;
+  }
+
+  .gallery-row-wide {
+    display: block;
+  }
+  .row-picture-wide img {
+    max-width: 700px;
   }
 }
 /*responsive styling for home page for max 900px width*/
@@ -222,7 +230,7 @@ footer {
   }
 
   .row-picture-wide img {
-    max-width: 200px;
+    max-width: 430px;
   }
 
   /*styling of responsive footer*/
