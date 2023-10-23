@@ -80,6 +80,9 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
 }
+.gallery-row-small {
+  display: none;
+}
 .row-picture img {
   max-width: 330px;
   padding-top: 2px;
@@ -161,6 +164,18 @@ footer {
   color: rgba(14, 69, 47, 0.698);
 }
 
+@media (max-width: 1200px) {
+  .gallery-row-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery-row {
+    display: none;
+  }
+  .row-picture img {
+    max-width: 400px;
+  }
+}
 /*responsive styling for home page for max 900px width*/
 /*styling of navbar and header*/
 
@@ -202,17 +217,12 @@ footer {
 
   /*styling of responsive gallery under 900px width*/
 
-  .gallery-row {
-    display: block;
-  }
   .gallery-row-wide {
     display: block;
   }
-  .row-picture img {
-    max-width: 400px;
-  }
+
   .row-picture-wide img {
-    max-width: 400px;
+    max-width: 200px;
   }
 
   /*styling of responsive footer*/
@@ -262,5 +272,14 @@ footer {
   .brand {
     padding: 0px;
     margin: 5px auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery-row {
+    display: block;
+  }
+  .gallery-row-small {
+    display: none;
   }
 }
