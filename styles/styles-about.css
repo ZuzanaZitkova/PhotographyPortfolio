@@ -181,8 +181,46 @@ footer {
 /*responsive styling of about me page under 1000px max width*/
 
 @media (max-width: 1100px) {
+  /*styling of header on about page*/
+  .navbar {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 10px;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .toggle-button {
+    margin: 20px 0px;
+    display: flex;
+    position: absolute;
+  }
+  .brand-name {
+    font-size: 30px;
+    display: block;
+    margin: 20px 0px;
+    padding-left: 10px;
+  }
+  /*content styling*/
+
   .about-content {
     display: block;
+    padding-top: 5px;
   }
   .me-camera {
     margin: 0 auto;
