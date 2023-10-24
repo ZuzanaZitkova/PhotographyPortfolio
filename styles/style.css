@@ -164,6 +164,7 @@ footer {
   color: rgba(14, 69, 47, 0.698);
 }
 
+/*styling of gallery under 1200px width*/
 @media (max-width: 1200px) {
   .gallery-row-small {
     display: grid;
@@ -184,10 +185,10 @@ footer {
     max-width: 700px;
   }
 }
-/*responsive styling for home page for max 900px width*/
+/*responsive styling for home page for max 1000px width*/
 /*styling of navbar and header*/
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .navbar {
     margin: 0;
     flex-direction: column;
@@ -222,17 +223,6 @@ footer {
     margin: 20px 0px;
     padding-left: 10px;
   }
-
-  /*styling of responsive gallery under 900px width*/
-
-  .gallery-row-wide {
-    display: block;
-  }
-
-  .row-picture-wide img {
-    max-width: 430px;
-  }
-
   /*styling of responsive footer*/
 
   footer {
@@ -266,6 +256,7 @@ footer {
     margin: 0 auto;
     font-size: 20px;
     max-width: 200px;
+    padding-bottom: 10px;
   }
 
   .social-links a {
@@ -282,7 +273,7 @@ footer {
     margin: 5px auto;
   }
 }
-
+/*styling of gallery under 800 width*/
 @media (max-width: 800px) {
   .gallery-row {
     display: block;
