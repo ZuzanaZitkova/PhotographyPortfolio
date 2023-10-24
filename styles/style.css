@@ -194,6 +194,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     padding: 5px;
+    padding-bottom: 30px;
   }
   .navbar-links {
     display: none;
