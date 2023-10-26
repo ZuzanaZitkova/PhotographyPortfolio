@@ -311,6 +311,13 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .main-heading {
+    font-size: 30px;
+  }
+  .secondary-heading {
+    font-size: 15px;
+  }
+  /*responsive styling of the contact form*/
   .hero_contact-form-wrapper {
     margin: 30px auto;
   }
@@ -324,13 +331,14 @@ footer {
     padding: 10px;
     margin-bottom: 20px;
     margin-top: 3px;
-
     font-size: 13px;
   }
+
   .contact-form-textarea {
     height: 130px;
     resize: none;
   }
+
   .form-submit-btn {
     font-size: 13px;
     padding: 5px 15px;
