@@ -311,12 +311,15 @@ footer {
 }
 
 @media (max-width: 900px) {
+  /*responsive styling of headings on contact page*/
+
   .main-heading {
     font-size: 30px;
   }
   .secondary-heading {
     font-size: 15px;
   }
+
   /*responsive styling of the contact form*/
   .hero_contact-form-wrapper {
     margin: 30px auto;
@@ -326,16 +329,16 @@ footer {
   }
 
   .contact-form-input {
-    width: 450px;
+    width: 650px;
     height: 30px;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-top: 3px;
-    font-size: 13px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 15px;
   }
 
   .contact-form-textarea {
-    height: 130px;
+    height: 160px;
     resize: none;
   }
 
@@ -347,5 +350,21 @@ footer {
   h4 {
     margin: 0px 0px 1px 2px;
     font-size: 13px;
+  }
+}
+
+@media (max-width: 760px) {
+  /*responsive styling of contact form */
+  .contact-form-input {
+    width: 450px;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  .contact-form-textarea {
+    height: 100px;
+    resize: none;
   }
 }
