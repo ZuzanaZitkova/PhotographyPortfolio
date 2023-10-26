@@ -64,7 +64,7 @@ body {
 .main-heading {
   font-family: 'Space Mono', monospace;
   font-weight: 200;
-  color: rgba(0, 0, 0, 0.602);
+  color: rgba(0, 0, 0, 0.74);
 }
 .hero-about-content {
   max-width: 1300px;
@@ -233,6 +233,7 @@ footer {
   .me-park {
     margin: 0 auto;
   }
+
   /*styling of responsive footer*/
 
   footer {
@@ -287,6 +288,10 @@ footer {
 @media (max-width: 830px) {
   .me-park {
     display: none;
+  }
+  .about-text {
+    line-height: 2;
+    font-size: 13px;
   }
 }
 
