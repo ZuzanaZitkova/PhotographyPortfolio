@@ -323,6 +323,7 @@ footer {
   /*responsive styling of the contact form*/
   .hero_contact-form-wrapper {
     margin: 30px auto;
+    max-width: 900px;
   }
   .contact-form {
     padding: 20px;
@@ -355,6 +356,10 @@ footer {
 
 @media (max-width: 760px) {
   /*responsive styling of contact form */
+  .hero_contact-form-wrapper {
+    margin: 30px auto;
+    max-width: 700px;
+  }
   .contact-form-input {
     width: 450px;
     height: 20px;
