@@ -360,6 +360,9 @@ footer {
     margin: 30px auto;
     max-width: 700px;
   }
+  .contact-form {
+    max-width: 600px;
+  }
   .contact-form-input {
     width: 450px;
     height: 20px;
@@ -367,6 +370,30 @@ footer {
     margin-bottom: 20px;
     margin-top: 30px;
     font-size: 15px;
+  }
+  .contact-form-textarea {
+    height: 100px;
+    resize: none;
+  }
+}
+
+@media (max-width: 570px) {
+  .hero_contact {
+    padding: 5px;
+  }
+  .hero_contact-form-wrapper {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  .contact-form {
+    max-width: 400px;
+  }
+  .contact-form-input {
+    width: 300px;
+    height: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
   }
   .contact-form-textarea {
     height: 100px;

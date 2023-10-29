@@ -295,13 +295,13 @@ footer {
 
 @media (max-width: 400px) {
   .row-picture img {
-    max-width: 380px;
+    max-width: 370px;
   }
-  .row-picture-wide {
-    max-width: 380px;
+  .row-picture-wide img {
+    max-width: 370px;
   }
   footer {
-    max-width: 390px;
+    max-width: 400px;
   }
   .navbar {
     padding-bottom: 10px;
