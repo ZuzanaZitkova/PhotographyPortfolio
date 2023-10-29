@@ -282,4 +282,40 @@ footer {
   .gallery-row-small {
     display: none;
   }
+  .row-picture-wide img {
+    max-width: 430px;
+  }
+  .gallery-sheet {
+    padding-bottom: 5px;
+  }
+  footer {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 400px) {
+  .row-picture img {
+    max-width: 380px;
+  }
+  .row-picture-wide {
+    max-width: 380px;
+  }
+  footer {
+    max-width: 390px;
+  }
+  .navbar {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .row-picture img {
+    max-width: 300px;
+  }
+  .row-picture-wide {
+    max-width: 300px;
+  }
+  footer {
+    max-width: 300px;
+  }
 }
